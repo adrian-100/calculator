@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center">
+        <fieldset>
+            <label for="num1">First Number:</label>
+            <input type="number" name="num1" id="f-num">
+            <br><br>
+
+            <label for="num2">Second Number:</label>
+            <input type="number" name="num2" id="s-num">
+            <br><br>
+
+            <div id="buttons">
+                <button onclick="plus()">+</button>
+                <button onclick="minus()">-</button>
+                <button onclick="multiply()">*</button>
+                <button onclick="divide()">/</button>
+                <button onclick="clearInput()">AC</button>
+            </div>
+            <br><br>
+
+            <label for="result">Total:</label><br>
+            <input type="text" name="result" id="show" readonly>
+        </fieldset>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
